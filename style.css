@@ -1,0 +1,1028 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 5px 0px 10px;
+    padding: 0 20px;
+    background-color:orangered ;
+    position: sticky;
+    top: 0;
+}
+header h1{
+    font-size: 30px;
+    margin: auto 30px;
+}
+.top-button{
+    margin: auto 70px ;
+}
+.top-button button{
+    margin-left: 40px ;
+    background: transparent;
+    border: none;
+    font-size: 20px ;
+}
+.videos{
+ width: fit-content ;
+ height: fit-content;
+ margin: 20px auto 10px ;
+}
+.videos video{
+    width: 100%;
+     height:300px ;
+     border-radius: 30px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.About{
+  width: fit-content;
+  margin: 5px auto;
+}
+.About-container{
+    background-color: #E6E3D3;
+    display: none;
+    border-radius: 40px ;
+    width: 50%;
+    height: 250px ;
+    margin: 50px auto  20px ;
+    padding: 15px 15px 10px ;
+    position: relative;
+    box-shadow:10px 10px 5px grey;
+}
+.About-container h1{
+    text-align: center;
+    justify-content: center;
+    margin: 5px auto 15px;
+}
+.About-container .cancel-btn{
+    background: transparent;
+    position: absolute;
+    top: 15px;
+    right: 15px ;
+    padding: 2px 4px;
+    border: none;
+}
+.Ab-active{
+    display: block ;
+}
+.Contact-container{
+    background-color: #E6E3D3;
+    display: none;
+    border-radius: 40px ;
+    width: 40%;
+    height: 250px ;
+    margin: 50px auto 20px ;
+    padding: 15px 15px 10px ;
+    position: relative;
+    box-shadow:10px 10px 5px grey;
+}
+.Contact-container h1{
+    text-align: center;
+}
+.Contact-container .cancel-btn{
+    background: transparent;
+    position: absolute;
+    top: 15px;
+    right: 18px ;
+    padding: 2px 4px;
+    border: none;
+}
+.cont-active{
+    display: block;
+}
+.container{
+    background-size: cover;
+    position: relative;
+    height: 400px ;
+    width: 90%;
+    margin: 10px auto 70px ;
+    padding: 20px 0px 0px;
+    border-radius: 30px;
+    box-shadow:10px 10px 5px grey;
+}
+.contents{
+    display: none;
+   
+}
+.active{
+    display: block;
+    height: 80%;
+    width: 60%;
+    margin: 20px auto 5px;
+    text-align: center;
+}
+.image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px ;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px 0px 10px;
+}
+.contents a{
+    text-decoration: none;
+    color: white;
+}
+.left-btn{
+    background: transparent;
+    position: absolute;
+    top: 47%;
+    left: 20px;
+    height: 40px;
+    width: 40px ;
+
+}
+.right-btn{
+    background: transparent;
+    position: absolute;
+    top: 47%;
+    right: 20px;
+    height: 40px;
+    width: 40px ;
+}
+.place-order{
+    background-color: #25D366;
+    margin: 10px auto 7px;
+    width: 40%;
+}
+.place-order img{
+    width: 22px ;
+    height: 20px ;
+}
+.phone-div{
+    margin: 15px 5px 15px 10px ;
+}
+.phone-div img{
+    width: 50px ;
+    height: 40px ;
+    margin-right: 12px ;
+}
+.phone-div a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin: 15px 0px 0px ;
+}
+.Contact-container h6{
+    text-align: center;
+}
+.social-media{
+    display: flex;
+   justify-content: space-around;
+    margin: 40px 0px 15px ;
+}
+.social-media img{
+ width: 60px ;
+ height: 50px ;
+}
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+.word1{
+    width: 100%;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animatein 4s linear  forwards;
+}
+.word2{
+    width: 100%;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animatein 4s linear 4s forwards;
+}
+.word3{
+    width: 100%;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animatein 4s linear 8s forwards;
+}
+.word4{
+    width: 100%;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animatein 4s linear 12s forwards;
+}
+.word5{
+    width: 100%;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animatein 4s linear 16s forwards;
+}
+.word6{
+    width: 100%;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animatein 4s linear 20s forwards;
+}
+@keyframes animatein {
+    0% {
+        width: 0%;
+        height: 0px;
+    }
+    2.5% {
+        width: 2.5% ;
+        height: 22px ;
+    }
+    5% {
+        width: 5% ;
+        height: 22px ;
+    }
+    7.5% {
+        width: 7.5%;
+        height: 22px ;
+    }
+    10% {
+        width: 10%;
+        height: 22px ;
+    }
+    12.5% {
+        width: 12.5% ;
+        height: 22px;
+    }
+    15% {
+        width: 15%;
+        height: 22px ;
+    }
+    17.5% {
+        width: 17.5% ;
+        height: 22px;
+    }
+    20% {
+        width: 20% ;
+        height: 22px;
+    }
+    22.5% {
+        width: 22.5% ;
+        height: 22px;
+    }
+    25% {
+        width: 25% ;
+        height: 22px;
+    }
+    27.5% {
+        width: 27.5% ;
+        height: 22px;
+    }
+    30% {
+        width: 30% ;
+        height: 22px;
+    }
+    32.5% {
+        width: 32.5% ;
+        height: 22px;
+    }
+    35% {
+        width: 35% ;
+        height: 22px;
+    }
+    37.5% {
+        width: 37.5% ;
+        height: 22px;
+    }
+    40% {
+        width: 40% ;
+        height: 22px;
+    }
+    42.5% {
+        width: 42.5% ;
+        height:22px;
+    }
+    45% {
+        width: 45% ;
+        height:22px;
+    }
+    47.5% {
+        width: 47.5% ;
+        height: 22px;
+    }
+    50% {
+        width: 50%;
+        height: 22px;
+    }
+    52.5% {
+        width: 52.5% ;
+        height:  22px;
+    }
+    55% {
+        width: 55% ;
+        height:  22px;
+    }
+    57.5% {
+        width: 57.5% ;
+        height:  22px;
+    }
+    60% {
+        width: 60% ;
+        height:  22px;
+    }
+    62.5% {
+        width: 62.5% ;
+        height: 22px;
+    }
+    65% {
+        width: 65% ;
+        height:  22px;
+    }
+    67.5% {
+        width: 67.5% ;
+        height: 22px;
+    }
+    70% {
+        width: 70% ;
+        height: 22px;
+    }
+    72.5% {
+        width: 72.5%;
+        height: 22px;
+    }
+    75% {
+        width: 75% ;
+        height: 22px;
+    }
+    77.5%{
+        width: 77.5% ;
+        height: 22px;
+    }
+    80% {
+        width: 80% ;
+        height: 22px;
+    }
+    82.5% {
+        width: 82.5% ;
+        height: 22px;
+    }
+    85% {
+        width: 85% ;
+        height: 22px;
+    }
+    87.5% {
+        width: 87.5% ;
+        height: 22px;
+    }
+    90% {
+        width: 90% ;
+        height: 22px;
+    }
+    92.5% {
+        width: 92.5% ;
+        height: 22px;
+    }
+    95% {
+        width: 95% ;
+        height:22px;
+    }
+    97.5% {
+        width: 97.5% ;
+        height: 22px;
+    }
+    100%{
+        width: 100%;
+        height: 22px ;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .About{
+        width: 100%;
+        margin: 5px auto;
+        padding: 0px 0px 0px 50px ;
+      }
+    
+}
+@media screen and (max-width: 850px) {
+    .About{
+        width: 100%;
+        margin: 5px auto;
+        padding: 0px 0px 0px 10px ;
+      }
+      header h1{
+        font-size: 25px;
+        margin: auto 15px;
+    }
+    .top-button{
+        margin: auto 50px ;
+    }
+    .top-button button{
+        margin-left: 20px ;
+        background: transparent;
+        border: none;
+    }
+}
+@media screen and (max-width: 780px) {
+    .About{
+        width: 100%;
+        margin: 5px auto;
+        padding: 0px 0px 0px 0px ;
+        font-size: 15px ;
+      }
+    .top-button{
+        margin: auto 30px ;
+    }
+    .top-button button{
+        margin-left: 10px ;
+        background: transparent;
+        border: none;
+    }
+    .About-container{
+        width: 60%;
+        height: 250px ;
+        margin: 60px auto  20px ;
+        padding: 15px 10px 10px ;
+    }
+    .About-container h1{
+        margin: 5px auto 13px;
+        font-size: 22px ;
+    }
+    .About-container .cancel-btn{
+        top: 15px;
+        right: 15px ;
+        padding: 2px 4px;
+    }
+    .Contact-container{
+        width: 60%;
+    }
+    .Contact-container h1{
+        font-size: 22px ;
+    }
+}
+@media screen and (max-width: 720px) {
+    .About{
+        width: fit-content;
+        margin: 5px auto;
+        padding: 0px 0px 0px 0px ;
+        font-size: 13px ;
+      }
+      @keyframes animatein {
+        0% {
+            width: 0%;
+            height: 0px;
+        }
+        2.5% {
+            width: 2.5% ;
+            height: 18px ;
+        }
+        5% {
+            width: 5% ;
+            height: 18px ;
+        }
+        7.5% {
+            width: 7.5%;
+            height: 18px ;
+        }
+        10% {
+            width: 10%;
+            height: 18px ;
+        }
+        12.5% {
+            width: 12.5% ;
+            height: 18px;
+        }
+        15% {
+            width: 15%;
+            height: 18px ;
+        }
+        17.5% {
+            width: 17.5% ;
+            height: 18px;
+        }
+        20% {
+            width: 20% ;
+            height: 18px;
+        }
+        22.5% {
+            width: 22.5% ;
+            height: 18px;
+        }
+        25% {
+            width: 25% ;
+            height: 18px;
+        }
+        27.5% {
+            width: 27.5% ;
+            height: 18px;
+        }
+        30% {
+            width: 30% ;
+            height: 18px;
+        }
+        32.5% {
+            width: 32.5% ;
+            height: 18px;
+        }
+        35% {
+            width: 35% ;
+            height: 18px;
+        }
+        37.5% {
+            width: 37.5% ;
+            height: 18px;
+        }
+        40% {
+            width: 40% ;
+            height: 18px;
+        }
+        42.5% {
+            width: 42.5% ;
+            height:18px;
+        }
+        45% {
+            width: 45% ;
+            height:18px;
+        }
+        47.5% {
+            width: 47.5% ;
+            height: 18px;
+        }
+        50% {
+            width: 50%;
+            height: 18px;
+        }
+        52.5% {
+            width: 52.5% ;
+            height:  18px;
+        }
+        55% {
+            width: 55% ;
+            height:  18px;
+        }
+        57.5% {
+            width: 57.5% ;
+            height:  18px;
+        }
+        60% {
+            width: 60% ;
+            height:  18px;
+        }
+        62.5% {
+            width: 62.5% ;
+            height: 18px;
+        }
+        65% {
+            width: 65% ;
+            height:  18px;
+        }
+        67.5% {
+            width: 67.5% ;
+            height: 18px;
+        }
+        70% {
+            width: 70% ;
+            height: 18px;
+        }
+        72.5% {
+            width: 72.5%;
+            height: 18px;
+        }
+        75% {
+            width: 75% ;
+            height: 18px;
+        }
+        77.5%{
+            width: 77.5% ;
+            height: 18px;
+        }
+        80% {
+            width: 80% ;
+            height: 18px;
+        }
+        82.5% {
+            width: 82.5% ;
+            height: 18px;
+        }
+        85% {
+            width: 85% ;
+            height: 18px;
+        }
+        87.5% {
+            width: 87.5% ;
+            height: 18px;
+        }
+        90% {
+            width: 90% ;
+            height: 18px;
+        }
+        92.5% {
+            width: 92.5% ;
+            height: 18px;
+        }
+        95% {
+            width: 95% ;
+            height:18px;
+        }
+        97.5% {
+            width: 97.5% ;
+            height: 18px;
+        }
+        100%{
+            width: 100%;
+            height: 18px ;
+        }
+    }
+}
+@media screen and (max-width: 640px) {
+    .place-order{
+        font-size: 13.5px ;
+    }
+    .container{
+        height: 350px ;
+    }
+    .image{
+        height: 250px ;
+    }
+    .phone-div{
+        margin: 15px 5px 15px 10px ;
+    }
+    .phone-div img{
+        width: 30px ;
+        height: 30px ;
+    }
+    .phone-div a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        margin: 15px 0px 0px ;
+    }
+    .Contact-container h6{
+        text-align: center;
+    }
+    .social-media{
+        display: flex;
+       justify-content: space-around;
+        margin: 40px 0px 15px ;
+    }
+    .social-media img{
+     width: 40px ;
+     height: 40px ;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .About{
+        font-size: 15px ;
+      }
+      header h1{
+        font-size: 20px ;
+      }
+      .top-button{
+        margin: auto 30px ;
+    }
+    .top-button button{
+        margin-left: 15px ;
+        font-size: 17px ;
+    }
+    .place-order{
+        font-size: 12px ;
+    }
+    .About-container{
+        width: 70%;
+        height: 280px ;
+        margin: 70px auto  20px ;
+        padding: 15px 10px 5px ;
+    }
+    .About-container h1{
+        margin: 5px auto 10px;
+        font-size: 22px ;
+    }
+    .About-container .cancel-btn{
+        top: 15px;
+        right: 15px ;
+        padding: 2px 4px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .About{
+        font-size: 14px ;
+    }
+    .place-order{
+        font-size: 11px ;
+    }
+}
+@media screen and (max-width: 450px ) {
+    @keyframes animatein {
+        0% {
+            width: 0%;
+            height: 0px;
+        }
+        2.5% {
+            width: 2.5% ;
+            height: 12px ;
+        }
+        5% {
+            width: 5% ;
+            height: 12px ;
+        }
+        7.5% {
+            width: 7.5%;
+            height: 12px ;
+        }
+        10% {
+            width: 10%;
+            height: 12px ;
+        }
+        12.5% {
+            width: 12.5% ;
+            height: 12px;
+        }
+        15% {
+            width: 15%;
+            height: 12px ;
+        }
+        17.5% {
+            width: 17.5% ;
+            height: 12px;
+        }
+        20% {
+            width: 20% ;
+            height: 12px;
+        }
+        22.5% {
+            width: 22.5% ;
+            height: 12px;
+        }
+        25% {
+            width: 25% ;
+            height: 12px;
+        }
+        27.5% {
+            width: 27.5% ;
+            height: 12px;
+        }
+        30% {
+            width: 30% ;
+            height: 12px;
+        }
+        32.5% {
+            width: 32.5% ;
+            height: 12px;
+        }
+        35% {
+            width: 35% ;
+            height: 12px;
+        }
+        37.5% {
+            width: 37.5% ;
+            height: 12px;
+        }
+        40% {
+            width: 40% ;
+            height: 12px;
+        }
+        42.5% {
+            width: 42.5% ;
+            height:12px;
+        }
+        45% {
+            width: 45% ;
+            height:12px;
+        }
+        47.5% {
+            width: 47.5% ;
+            height: 12px;
+        }
+        50% {
+            width: 50%;
+            height: 12px;
+        }
+        52.5% {
+            width: 52.5% ;
+            height:  12px;
+        }
+        55% {
+            width: 55% ;
+            height:  12px;
+        }
+        57.5% {
+            width: 57.5% ;
+            height:  12px;
+        }
+        60% {
+            width: 60% ;
+            height:  12px;
+        }
+        62.5% {
+            width: 62.5% ;
+            height: 12px;
+        }
+        65% {
+            width: 65% ;
+            height:  12px;
+        }
+        67.5% {
+            width: 67.5% ;
+            height: 12px;
+        }
+        70% {
+            width: 70% ;
+            height: 12px;
+        }
+        72.5% {
+            width: 72.5%;
+            height: 12px;
+        }
+        75% {
+            width: 75% ;
+            height: 12px;
+        }
+        77.5%{
+            width: 77.5% ;
+            height: 12px;
+        }
+        80% {
+            width: 80% ;
+            height: 12px;
+        }
+        82.5% {
+            width: 82.5% ;
+            height: 12px;
+        }
+        85% {
+            width: 85% ;
+            height: 12px;
+        }
+        87.5% {
+            width: 87.5% ;
+            height: 12px;
+        }
+        90% {
+            width: 90% ;
+            height: 12px;
+        }
+        92.5% {
+            width: 92.5% ;
+            height: 12px;
+        }
+        95% {
+            width: 95% ;
+            height:12px;
+        }
+        97.5% {
+            width: 97.5% ;
+            height: 12px;
+        }
+        100%{
+            width: 100%;
+            height: 12px ;
+        }
+    }
+}
+@media screen and (max-width: 435px) {
+    .About{
+        font-size: 13px ;
+    }
+    .left-btn{
+        position: absolute;
+        top: 47%;
+        left: 5px;
+        height: 30px;
+        width: 30px ;
+    
+    }
+    .right-btn{
+        position: absolute;
+        top: 47%;
+        right: 5px;
+        height: 30px;
+        width: 30px ;
+    }
+    header h1{
+        font-size: 17px ;
+      }
+      .top-button{
+        margin: auto 15px ;
+    }
+    .top-button button{
+       font-size:15px  ;
+    }
+    .place-order{
+        font-size: 10px ;
+    }
+    .About-container{
+        width: 80%;
+        height: 280px ;
+        margin: 70px auto  20px ;
+        padding: 15px 10px 5px ; 
+    }
+    .About-container p{
+        font-size: 15px ;
+    }
+    .About-container h1{
+        margin: 5px auto 10px;
+        font-size: 20px ;
+    }
+    .About-container .cancel-btn{
+        top: 15px;
+        right: 15px ;
+        padding: 2px 4px;
+    }
+    .Contact-container{
+        width: 80% ;
+    }
+}
+@media screen and (max-width: 400px) {
+    .About{
+        font-size: 12px ;
+    }
+    header{
+       padding: 0 10px ;
+    }
+    header h1{
+        font-size: 15px ;
+      }
+    .top-button button{
+        margin-left: 6px ;
+        font-size: 13px ;
+    }
+    .place-order{
+        font-size: 9px ;
+    }
+    
+    
+}
+@media screen and (max-width: 380px) {
+    .About{
+        font-size: 11px ;
+    }
+    .place-order{
+        font-size: 8px ;
+    }
+    .phone-div p{
+        font-size: 13px ;
+    }
+    .phone-div img{
+        width: 25px ;
+    }
+    .social-media img{
+        width: 30px ;
+    }
+    .Contact-container h6{
+        font-size: 10px ;
+    }
+}
+@media screen and (max-width: 355px) {
+    .About{
+        font-size: 10.5px ;
+        font-weight: bolder;
+    }
+    .place-order{
+        font-size: 7.5px ;
+    }
+}
+@media screen and (max-width: 340px) {
+    .About{
+        font-size: 9.5px ;
+        font-weight: bolder;
+    }
+    .place-order{
+        font-size: 7px ;
+    }
+}
+@media screen and (max-width: 320px) {
+    .About{
+        font-size: 9px ;
+        font-weight: bolder;
+    }
+    header{
+        padding: 0 5px ;
+     }
+     header h1{
+         font-size: 13px ;
+       }
+     .top-button button{
+         margin-left: 3px ;
+         font-size: 12px ;
+     }
+    .place-order{
+        font-size: 6.5px ;
+    }
+}
+@media screen and (max-width: 300px) {
+    .About{
+        font-size: 8.5px ;
+        font-weight: bolder;
+    }
+    .place-order{
+        font-size: 6px ;
+    }
+    .About-container{
+        width: 85%;
+        height: 280px ;
+        margin: 70px auto  20px ;
+        padding: 15px 10px 5px ;
+    }
+    .About-container h1{
+        margin: 5px auto 10px;
+        font-size: 18px ;
+    }
+    .About-container p{
+        font-size: 14px ;
+    }
+}
